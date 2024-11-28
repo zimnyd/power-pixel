@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Colors for dark mode */
+@layer base {
+  body.dark {
+    color-scheme: dark;
+    @apply bg-neutral-800 text-white;
+  }
+}
